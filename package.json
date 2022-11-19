@@ -1,0 +1,22 @@
+{
+  "name": "mail-consumer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "mongoose": "^6.7.2",
+    "nodemailer": "^6.8.0"
+  }
+}
